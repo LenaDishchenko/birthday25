@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    margin: 70px auto 0;
+    margin: 70px auto;
     padding: 40px;
     width: 900px;
     text-align: center;
@@ -41,6 +41,9 @@ body {
     background-image: url("images/222-1.jpg")
 }
 
+.heading._top {
+    margin-bottom: 10px;
+}
 .time {
     font-family: 'Clicker Script', cursive;
     font-family: 'Londrina Outline', cursive;
@@ -86,7 +89,7 @@ body {
 .heading {
     display: block;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .heading._top span {
@@ -156,4 +159,24 @@ body {
 .block.pull-left {
     min-height: 170px;
     background: url("images/222-3.jpg") 100% 50% no-repeat;
+}
+
+.guest-list {
+    display: inline-block;
+    margin: 0px 80px;
+    padding: 0;
+    list-style: none;
+    color: rgba(68, 68, 68, 0.8);
+}
+
+.heading.__bottom {
+    margin: 40px 0 0;
+}
+.heading.__bottom span {
+    color: rgba(255, 0, 0, 0.35 );
+}
+
+.heading._guest {
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
